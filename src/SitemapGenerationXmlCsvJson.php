@@ -59,8 +59,7 @@ class SitemapGenerationXmlCsvJson
         $attr_urlset_xmlns = new DOMAttr('xmlns', 'http://www.sitemaps.org/schemas/sitemap/0.9');
         $root->setAttributeNode($attr_urlset_xmlns);
 
-        $attr_urlset_xsi_schema_location = new DOMAttr('xsi:schemaLocation', 'http://www.sitemaps.org/schemas/sitemap/0.9'. PHP_EOL
-                                                                                        .'http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd');
+        $attr_urlset_xsi_schema_location = new DOMAttr('xsi:schemaLocation', 'http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd');
         $root->setAttributeNode($attr_urlset_xsi_schema_location);
 
 
