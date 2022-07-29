@@ -1,6 +1,6 @@
 <?php
 
-namespace SitemapGenerationXmlCsvJson;
+namespace Rei00;
 use DOMAttr;
 use DOMDocument;
 use Exception;
