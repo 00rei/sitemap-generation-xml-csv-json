@@ -1,5 +1,9 @@
 <?php
 
+namespace SitemapGenerationXmlCsvJson;
+use DOMAttr;
+use DOMDocument;
+use Exception;
 
 class SitemapGenerationXmlCsvJson
 {
