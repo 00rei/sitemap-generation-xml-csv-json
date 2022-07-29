@@ -1,0 +1,22 @@
+{
+    "name": "rei00/sitemap-generation-xml-csv-json",
+    "description": "Package for generating a sitemap in XML, CSV, JSON formats.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Rei00\\SitemapGenerationXmlCsvJson\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rei00",
+            "email": "wiiuxnx@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">=7.4",
+      "ext-json": "*",
+      "ext-dom": "*"
+    }
+}
